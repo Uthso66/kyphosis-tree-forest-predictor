@@ -8,7 +8,7 @@ A machine learning project to predict the presence of kyphosis (a spinal conditi
 
 ```
 
-KNN_Project_Predictor/
+kyphosis-tree-forest-predictor/
 ├── config/ # YAML config for paths + hyperparameters
 ├── data/ # raw + processed data splits
 ├── models/ # saved KNN model & metrics
