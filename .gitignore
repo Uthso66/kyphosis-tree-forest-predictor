@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+
+# Data files
+# data/raw/
+data/processed/
+data/features/
+
+# Model files
+models/*.pkl
+
+# Output plots
+# outputs/*.png
+
+# Misc
+*.log
+.DS_Store

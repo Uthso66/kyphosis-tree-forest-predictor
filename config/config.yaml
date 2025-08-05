@@ -1,0 +1,29 @@
+data:
+  raw_path: data/raw/kyphosis.csv
+  processed_dir: data/processed
+  features_dir: data/features
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 0
+
+models:
+  decision_tree:
+    criterion: gini
+    max_depth: 4
+    random_state: 0
+
+  random_forest:
+    n_estimators: 200
+    criterion: gini
+    max_depth: 10
+    random_state: 0
+
+  dt_save_path: "models/decision_tree_model.pkl"
+  rf_save_path: "models/random_forest_model.pkl"
+
+evaluation:
+  metrics_output: models/model_metrics.json
+  confusion_matrix_plot: outputs/confusion_matrix.png
+  roc_curve_plot: outputs/roc_curve.png
+  classification_report_txt: outputs/classification_report.txt
+  feature_importance_plot: outputs/feature_importance.png
